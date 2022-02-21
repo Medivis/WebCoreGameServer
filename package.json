@@ -1,0 +1,38 @@
+{
+  "name": "mx-webcore",
+  "version": "1.0.2",
+  "description": "provides a solid base for any webprojects with a backend",
+  "main": "app.js",
+  "scripts": {
+    "nodemon": "nodemon app.js",
+    "start": "node app.js",
+    "install-modules": "npm install"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "Niklas 'medivis' Schulz",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^4.4.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.11.15",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemailer": "^6.4.17",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport.socketio": "^3.7.0",
+    "path": "^0.12.7",
+    "socket.io": "^4.0.0",
+    "striptags": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
